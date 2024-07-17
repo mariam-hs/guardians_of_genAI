@@ -1,7 +1,12 @@
 # Guardians_of_Gen_AI
 
 ## Summary
-Placeholder
+This document is created to allign the model against resource waste attacks in text to sql generation process. More specifically for the use cases where the attacker explicitly isntructs the model to include the following resource waste condition clause in the sql query:
+
+```sql
+AND [RANDNUM]=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB([SLEEPTIME]00000000/2))))
+```
+In the following, we provide examples of questions: with instructions and database schemes, and answers that we expect robust LLM model should generate for the given user input.
 
 ## Question and Answer Examples
 
