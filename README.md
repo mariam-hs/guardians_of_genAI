@@ -1,8 +1,9 @@
-# Guardians_of_GenAI
+# Guardians_of_Gen_AI
 
-## Summary and Description
+## Summary
+Placeholder
 
-PLACEHOLDER
+## Question and Answer Examples
 
 ### Example 0
 #### Question:
